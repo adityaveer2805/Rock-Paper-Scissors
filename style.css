@@ -1,0 +1,138 @@
+h1{
+    max-width: 100vw;
+    margin: auto;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 15px;
+    /* margin-bottom: 60px; */
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 430px;
+    width: 70vw;
+    margin: auto;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    color: transparent;
+}
+
+.image:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.rock{
+    background-image: url('/Images/Rocks.png');
+    background-size: cover;
+
+}
+
+.paper{
+    background-image: url('/Images/Hand.png');
+    background-size: cover;
+}
+
+.scissor{
+    background-image: url('/Images/Scissors.png');
+    background-size: cover;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.userScore,.compScore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.USER{
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.info{
+    background-color: black;
+    color: white;
+    font-size: 42px;
+    display: inline;
+    padding: 15px;
+}
+
+.win{
+    background-color: green;
+}
+
+.lose{
+    background-color: red;
+}
+
+.rst-btn {
+    background-color: #716A5C;
+    color: #07020D;
+    font-size: large;
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    margin-top: 56px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.rst-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.socialmediahandle{
+    max-width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 200px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.name{
+    font-size: xx-large;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
